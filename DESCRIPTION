@@ -1,8 +1,9 @@
 Package: BNPProcess
-Title: What the Package Does (one line, title case)
+Title: Bayesian Non-Parametric Process
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.3)
-License: What license is it under?
+Authors@R: person("Gabriele", "Arici", role = c("aut", "cre"), mail = "garici@cgnal.com")
+Maintainer: Gabriele Arici <garici@cgnal.com">
+Description: The package implements two Bayesian Non-Parametric processes, for cluster and feature models in statistical machine learning: the Chinese Restaurant Process and the Indian Buffet Process.
+Depends: R (>= 3.2.3), ggplot2, methods, R.oo, reshape2
+License: GPL (>= 2)
 LazyData: true
