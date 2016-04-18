@@ -5,7 +5,7 @@ Authors@R: person("Gabriele", "Arici", role = c("aut", "cre"), mail = "garici@cg
 Maintainer: Gabriele Arici <garici@cgnal.com">
 Description: The package implements two Bayesian Non-Parametric processes, 
 			 for cluster and feature models in statistical machine learning: 
-			t he Chinese Restaurant Process and the Indian Buffet Process.
+			 the Chinese Restaurant Process and the Indian Buffet Process.
 Depends: R (>= 3.2.3), ggplot2, methods, R.oo, reshape2
 License: GPL (>= 2)
 LazyData: true
