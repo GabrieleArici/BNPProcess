@@ -1,6 +1,6 @@
 # Chinese Restaurant Process
 
-# Library to be needed - required
+# Library to be needed
 
 if (!require("methods"))
   require("methods", repos="http://cran.us.r-project.org")
