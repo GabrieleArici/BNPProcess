@@ -3,13 +3,13 @@
 # Library to be needed
 
 if (!require("methods"))
-  install.packages("methods", repos="http://cran.us.r-project.org")
+  require("methods", repos="http://cran.us.r-project.org")
 
 if (!require("ggplot2"))
-  install.packages("ggplot2", repos="http://cran.us.r-project.org")
+  require("ggplot2", repos="http://cran.us.r-project.org")
 
 if (!require("R.oo"))
-  install.packages("R.oo", repos="http://cran.us.r-project.org")
+  require("R.oo", repos="http://cran.us.r-project.org")
 
 library(methods)
 library(ggplot2)
